@@ -5,11 +5,11 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <p>
-      header works!
+      {{ title }}
     </p>
   `,
-  styles: ``
+  styles: ``,
 })
 export class HeaderComponent {
-
+  title = 'My Ecommerce App';
 }
