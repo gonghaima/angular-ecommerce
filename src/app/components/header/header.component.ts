@@ -4,11 +4,17 @@ import { Component, signal } from '@angular/core';
   selector: 'app-header',
   imports: [],
   template: `
-    <p>
+    <div class="header">
       {{ title() }}
-    </p>
+    </div>
   `,
-  styles: ``,
+  styles: `
+   .header{
+     background: rgb(0, 0, 0,.5);
+     color: #000;
+     padding: 1 rem;
+   }
+   `,
 })
 export class HeaderComponent {
   title = signal('My Ecommerce App');
