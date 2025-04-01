@@ -4,16 +4,12 @@ import { Component, signal } from '@angular/core';
   selector: 'app-header',
   imports: [],
   template: `
-    <div class="header">
+    <div class="bg-white shadow-md p-4 flex justify-between items-center">
       {{ title() }}
     </div>
   `,
   styles: `
-   .header{
-     background: rgb(0, 0, 0,.5);
-     color: #000;
-     padding: 1 rem;
-   }
+   
    `,
 })
 export class HeaderComponent {
