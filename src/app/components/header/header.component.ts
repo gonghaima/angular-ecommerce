@@ -7,7 +7,7 @@ import { PrimaryButtonComponent } from '../primary-button/primary-button.compone
   template: `
     <div class="bg-slate-100 px-4 py-3 shadow-md flex justify-between">
       <span>My Store</span>
-      <app-primary-button />
+      <app-primary-button label="Cart"/>
     </div>
   `,
   styles: `
