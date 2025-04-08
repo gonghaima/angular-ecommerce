@@ -8,7 +8,7 @@ import { PrimaryButtonComponent } from '../primary-button/primary-button.compone
     <div
       class="bg-slate-100 px-4 py-3 shadow-md flex justify-between items-center"
     >
-      <span>My Store</span>
+      <span class="text-x1">My Store</span>
       <app-primary-button label="Cart" (btnClicked)="showButtonClicked()" />
     </div>
   `,
