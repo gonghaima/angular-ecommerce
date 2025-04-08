@@ -9,3 +9,5 @@
     - https://tailwindcss.com/docs/installation/framework-guides/angular
 - add a button component
   `ng generate component components/primary-button`
+- add a product list component
+  `ng g component pages/product-list`
