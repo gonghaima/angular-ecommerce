@@ -11,3 +11,5 @@
   `ng generate component components/primary-button`
 - add a product list component
   `ng g component pages/product-list`
+- add a product card
+  `ng g c pages/product-list/product-card`
