@@ -5,9 +5,16 @@ import { Product } from '../../../models/products.model';
   selector: 'app-product-card',
   imports: [],
   template: `
-    <p>
-      {{ product().title }}
-    </p>
+    <div
+      class="bg-white shadow-md border rounded-xl p-6 flex flex-col gap-6 relative"
+    >
+      <div class="mx-auto">
+        <img
+          [src]="product().image"
+          class="w-[200px] h-[100px] object-contain"
+        />
+      </div>
+    </div>
   `,
   styles: ``,
 })
