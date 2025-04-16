@@ -14,6 +14,14 @@ import { Product } from '../../../models/products.model';
           class="w-[200px] h-[100px] object-contain"
         />
       </div>
+      <div class="flex flex-col">
+        <span class="text-md font-bold">
+          {{ product().title }}
+        </span>
+        <span class="text-md font-bold">
+          {{ '$' + product().price }}
+        </span>
+      </div>
     </div>
   `,
   styles: ``,
