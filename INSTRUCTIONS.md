@@ -13,3 +13,5 @@
   `ng g component pages/product-list`
 - add a product card
   `ng g c pages/product-list/product-card`
+- add a service
+  `ng g service services/cart`
