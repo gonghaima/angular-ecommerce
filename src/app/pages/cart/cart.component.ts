@@ -4,12 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-cart',
   imports: [],
   template: `
-    <p>
-      cart works!
-    </p>
+    <div class="p-6 flex flex-col gap-4">
+      <h2 class="text-2xl">Shopping cart</h2>
+    </div>
   `,
-  styles: ``
+  styles: ``,
 })
-export class CartComponent {
-
-}
+export class CartComponent {}
