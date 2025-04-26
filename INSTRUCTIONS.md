@@ -17,3 +17,4 @@
   `ng g service services/cart`
 - add a card page
   `ng g c pages/cart`
+  `ng g c pages/cart/cart-item`
