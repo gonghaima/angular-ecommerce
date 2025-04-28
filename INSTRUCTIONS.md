@@ -18,3 +18,5 @@
 - add a card page
   `ng g c pages/cart`
   `ng g c pages/cart/cart-item`
+- add button component
+  `ng g c components/button`
