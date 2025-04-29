@@ -6,7 +6,7 @@
   `ng generate component components/header`
 - add tailwind css
   `npm install tailwindcss @tailwindcss/postcss postcss --force`
-    - https://tailwindcss.com/docs/installation/framework-guides/angular
+  - https://tailwindcss.com/docs/installation/framework-guides/angular
 - add a button component
   `ng generate component components/primary-button`
 - add a product list component
@@ -18,5 +18,6 @@
 - add a card page
   `ng g c pages/cart`
   `ng g c pages/cart/cart-item`
+  `ng g c pages/cart/order-summary`
 - add button component
   `ng g c components/button`
